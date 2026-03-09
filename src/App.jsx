@@ -7,21 +7,20 @@ import {
   CheckCircle, Quote, Star, Filter, Trophy
 } from 'lucide-react';
 
-import myPhoto from './assets/my_photo.png';
-
+import myPhoto from './assets/My-photo.png';
 // --- DATA SECTION ---
 
 const personalInfo = {
-  name: "Mohamed Khaled Saad",
+  name: "Mahmoud sherif ",
   title: "AI Engineer & Data Scientist",
-  slogan: "Turning Complex Data into Intelligent Decisions.",
-  valueProposition: "I bridge the gap between theoretical AI research and practical, scalable deployment. My focus isn't just on building models, but on creating robust systems that solve real-world problems efficiently.",
-  email: "mohamedkhaledsaadkamel@gmail.com",
-  phone: "+20 1028645400", // أضف رقم هاتفك هنا
+  slogan: "Smart Analytics for Smarter Moves.",
+  valueProposition: "I am an AI developer who transforms research ideas into practical software solutions. I specialize in designing and deploying scalable AI systems that combine machine learning, software engineering, and performance optimization to deliver real impact.",
+  email: "mahmoudsherif8002@gmail.com",
+  phone: "+20 01013765365", // أضف رقم هاتفك هنا
   location: "Cairo, Egypt",
-  github: "https://github.com/MahamedKhaledSaad11",
-  linkedin: "https://www.linkedin.com/in/moohhaammeed-khaled/",
-  cvPath: "/Mohamed_Khaled.pdf",
+  github: "https://github.com/Mahmoudsherif00",
+  linkedin: "https://www.linkedin.com/in/mahmoud-sherif0/",
+  cvPath: "/src/assets/Mahmoud_Sherif CV.pdf",
   photo: myPhoto
 };
 
@@ -32,24 +31,15 @@ const services = [
     desc: "Building and training custom Machine Learning & Deep Learning models tailored to your business needs.",
     icon: <Brain size={32} />
   },
-  {
-    title: "Computer Vision Solutions",
-    desc: "Implementing Face Recognition, Object Detection, and Medical Imaging analysis systems.",
-    icon: <Eye size={32} />
-  },
-  {
-    title: "Embedded AI Systems",
-    desc: "Deploying lightweight AI models on Edge devices like Raspberry Pi and Jetson Nano.",
-    icon: <Cpu size={32} />
-  },
+ 
   {
     title: "Data Science & Analytics",
     desc: "Transforming raw data into actionable insights through EDA, visualization, and predictive modeling.",
     icon: <BarChart3 size={32} />
   },
   {
-    title: "Full-Stack Web Dev",
-    desc: "Creating responsive web applications integrated with AI backends using Django & React.",
+    title: "Software Development",
+    desc: "Back end development with .NET and C#.",
     icon: <Network size={32} /> 
   }
 ];
@@ -57,18 +47,33 @@ const services = [
 // 2. EDUCATION DATA
 const education = [
   {
-    degree: "Bachelor of Intelligent systems Engineering", 
-    institution: "Helwan National University",
-    year: "2022 - 2027",
-    desc: "Major in Communications and Electronics Engineering. Grade: very good"
+    degree: "Bachelor of Computer Science and Artificial Intelligence", 
+    institution: "Ahram Canadian University",
+    year: "2023 - 2027",
+    desc: "Major in Artificial Intelligence. GPA: 3.59/4.0"
   },
   {
-    degree: "Artificial Intelligence Program",
-    institution: "Zewail University (Impact)",
-    year: "2023",
-    desc: "Intensive course covering Python, Machine Learning, Deep Learning, and Neural Networks."
+    degree: "Data Science Program",
+    institution: "Digital Egypt Pioneers Initiative By MCIT",
+    year: "2026",
+    desc: [
+      "Intensive training in Data Science foundations, including data analysis, data visualization, SQL databases, and Python-based workflows for extracting insights and building data-driven solutions.",
+      "Hands-on experience in Machine Learning and applied Artificial Intelligence, focusing on model development, evaluation, and deployment using tools such as MLflow and Hugging Face.",
+      "Completion of end-to-end projects and a capstone applying the full data science lifecycle—from problem definition and data preparation to model development and generating real-world business insights."
+    ]
   },
-
+  {
+    degree: "Problem Solving Course – Level 2 (Official Certificate)",
+    institution: "Coach Academy",
+    year: "May 2025",
+    desc: [
+      "Complexity analysis and recursion",
+      "Standard Template Libraries (STLs)",
+      "Static range queries, two pointers & sliding window techniques",
+      "Binary search, Recursive and iterative complete search (backtrack & bitmasks)",
+      "Greedy algorithms, Number theory (Level I & II)"
+    ]
+  }
 ];
 
 // 3. ACHIEVEMENTS DATA
@@ -83,86 +88,91 @@ const testimonials = [
 
 // 5. PROJECTS DATA (With Categories)
 const projects = [
-  {
-    id: 1,
-    title: "Smart Entrance Gate",
-    category: "Embedded AI",
-    challenge: "Integration of multiple biometric sensors on limited hardware resources.",
-    result: "Achieved 99% uptime with <1s response time for face recognition.",
-    tools: ["Python", "Django", "Face Recognition", "OpenCV", "Raspberry Pi"],
-    description: "Built a multi-modal biometric access control system combining face recognition, fingerprint scanning, and RFID. Designed a reliable embedded architecture with asynchronous communication.",
-    icon: <Eye size={32} />,
-    githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
-    demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
-  },
-  {
-    id: 2,
-    title: "Hospital Management System",
-    category: "Web Dev",
-    challenge: "Synchronizing data between desktop and web platforms in real-time.",
-    result: "Reduced appointment booking time by 40% and enabled 100% digital record access.",
-    tools: ["Django", "SQLite", "Python", "Bootstrap", "JS","HTML5","CSS"],
-    description: "Developed a dual-platform (Web + Desktop) system to enhance doctor-patient communication. Features include appointment scheduling, prescription management, and history tracking.",
-    icon: <Activity size={32} />,
-    githubLink: "https://github.com/MahamedKhaledSaad11/hospital-management-system",
-    demoLink: "https://mohamedkhaledsaad.pythonanywhere.com/"
-  },
-  {
-    id: 3,
-    title: "Auto-ML Platform",
-    category: "AI & Web",
-    challenge: "Automating the complex pipeline of feature engineering and model selection.",
-    result: "Empowered non-technical users to train models with 90%+ accuracy via a GUI.",
-    tools: ["Flask", "Scikit-Learn", "Pandas", "NumPy","Matplotlib"],
-    description: "Full-stack app allowing users to upload datasets, visualize EDA, and train models (Random Forest, SVM) without code. Automatically generates Python scripts for the user.",
-    icon: <Brain size={32} />,
-    githubLink: 'https://github.com/MahamedKhaledSaad11/Auto-ML',
-    demoLink: "https://momosaad11.pythonanywhere.com/"
-  },
+  // {
+  //   id: 1,
+  //   title: "Smart Entrance Gate",
+  //   category: "Embedded AI",
+  //   challenge: "Integration of multiple biometric sensors on limited hardware resources.",
+  //   result: "Achieved 99% uptime with <1s response time for face recognition.",
+  //   tools: ["Python", "Django", "Face Recognition", "OpenCV", "Raspberry Pi"],
+  //   description: "Built a multi-modal biometric access control system combining face recognition, fingerprint scanning, and RFID. Designed a reliable embedded architecture with asynchronous communication.",
+  //   icon: <Eye size={32} />,
+  //   githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
+  //   demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
+  // },
+  // {
+  //   id: 2,
+  //   title: "Hospital Management System",
+  //   category: "Web Dev",
+  //   challenge: "Synchronizing data between desktop and web platforms in real-time.",
+  //   result: "Reduced appointment booking time by 40% and enabled 100% digital record access.",
+  //   tools: ["Django", "SQLite", "Python", "Bootstrap", "JS","HTML5","CSS"],
+  //   description: "Developed a dual-platform (Web + Desktop) system to enhance doctor-patient communication. Features include appointment scheduling, prescription management, and history tracking.",
+  //   icon: <Activity size={32} />,
+  //   githubLink: "https://github.com/MahamedKhaledSaad11/hospital-management-system",
+  //   demoLink: "https://mohamedkhaledsaad.pythonanywhere.com/"
+  // },
+  // {
+  //   id: 3,
+  //   title: "Auto-ML Platform",
+  //   category: "AI & Web",
+  //   challenge: "Automating the complex pipeline of feature engineering and model selection.",
+  //   result: "Empowered non-technical users to train models with 90%+ accuracy via a GUI.",
+  //   tools: ["Flask", "Scikit-Learn", "Pandas", "NumPy","Matplotlib"],
+  //   description: "Full-stack app allowing users to upload datasets, visualize EDA, and train models (Random Forest, SVM) without code. Automatically generates Python scripts for the user.",
+  //   icon: <Brain size={32} />,
+  //   githubLink: 'https://github.com/MahamedKhaledSaad11/Auto-ML',
+  //   demoLink: "https://momosaad11.pythonanywhere.com/"
+  // },
 ];
 
 const experienceData = [
   {
-    type: "National Technical Program",
-    role: "Data Scientist Trainee",
-    company: "Digital Egypt Pioneers - MCIT",
-    date: "Nov 2025 - Present",
+    type: "Instructor",
+    role: "Computer Science Instructor",
+    company: "Creative Children Community - Cairo, Egypt",
+    date: "July 2024 - Present",
     description: [
-      "Intensive training in Data Science foundations, SQL, and Python workflows.",
-      "Applied full data science lifecycle from problem formulation to model deployment using MLflow."
+      "Awarded for excellence in teaching coding to children, covering HTML, CSS, and Python programming language as Instructor of the Month (Link).",
+      "Delivered 300+ engaging lectures and discussion-based sessions, promoting active learning and critical thinking.",
+      "Demonstrated programming concepts and problem-solving techniques.",
+      "Provided guidance and feedback to students on their assignments and projects.",
+      "Conducted hands-on labs and coding exercises."
     ]
   },
   {
     type: "Internship",
-    role: "Computer Vision Trainee",
-    company: "National Telecommunication Institute (NTI)",
-    date: "July 2025 - Aug 2025",
+    role: "Backend Developer Intern",
+    company: "Microsystem Cloud Business Solutions - Cairo, Egypt",
+    date: "June 2025 - August 2025",
     description: [
-      "Worked on object recognition systems based on deep learning.",
-      "Developed Python scripts for image processing using OpenCV."
+      "Developed and maintained backend applications using C#, applying OOP and SOLID principles, and implementing design patterns like Repository, Factory, and Singleton, resulting in 30% faster code maintainability and reduced system errors.",
+      "Designed and managed relational databases, writing efficient SQL queries that improved data retrieval speed by 25% and ensured 99% data accuracy across applications."
     ]
   },
-    {
-    type: "Internship",
-    role: "HCIA - AI Trainee",
-    company: "National Telecommunication Institute (NTI)",
-    date: "June 2025",
+  {
+    type: "Trainee",
+    role: "Computer Science Instructor Trainee",
+    company: "Creative Children Community - Cairo, Egypt",
+    date: "May 2024 – July 2024",
     description: [
-      "Completed 80-hour Huawei AI course covering Machine Learning & Deep Learning.",
-      "Acquired hands-on experience with Huawei AI platforms."
+      "Developed engaging programming lessons and hands-on coding labs that motivated students and sparked their interest.",
+      "Effectively explained technical concepts to students and parents, receiving consistently excellent reviews and high assignment marks.",
+      "Earned recognition for performance, leading to a contract extension and an expanded role within the company."
     ]
   }
 ];
 
 const skills = {
   technical: [
-    { category: "Programming", items: ["Python", "C++", "Java"], icon: <Terminal size={20} /> },
-    { category: "Machine Learning", items: ["Supervised/Unsupervised", "Clustering", "Scikit-learn"], icon: <Brain size={20} /> },
-    { category: "Deep Learning", items: ["CNN", "ANN", "TensorFlow", "Keras", "PyTorch"], icon: <Layers size={20} /> },
-    { category: "Computer Vision", items: ["Object Detection", "Segmentation", "OpenCV", "YOLO"], icon: <Eye size={20} /> },
-    { category: "Data Science", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL"], icon: <BarChart3 size={20} /> },
-    { category: "Embedded Systems", items: ["Raspberry Pi", "Arduino", "ESP32"], icon: <Cpu size={20} /> },
-    { category: "Web Tools", items: ["Django", "Flask", "React", "Git"], icon: <Network size={20} /> },
+    { category: "Programming", items: ["Python", "C++", "C#"], icon: <Terminal size={20} /> },
+    // { category: "Machine Learning", items: ["Supervised/Unsupervised", "Clustering", "Scikit-learn"], icon: <Brain size={20} /> },
+    // { category: "Deep Learning", items: ["CNN", "ANN", "TensorFlow", "Keras", "PyTorch"], icon: <Layers size={20} /> },
+    // { category: "Computer Vision", items: ["Object Detection", "Segmentation", "OpenCV", "YOLO"], icon: <Eye size={20} /> },
+    { category: "Software Engineering", items: ["Object-Oriented Programming", "Agile Development", "System Design"], icon: <Eye size={20} /> },
+    { category: "Data Science", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Jupyter Notebook","pyplot"], icon: <BarChart3 size={20} /> },
+    // { category: "Embedded Systems", items: ["Raspberry Pi", "Arduino", "ESP32"], icon: <Cpu size={20} /> },
+    { category: "Web Tools", items: [".NET", "HTML", "CSS", "Git"], icon: <Network size={20} /> },
   ]
 };
 
@@ -184,7 +194,7 @@ const Navbar = ({ activeSection, scrollToSection, mobileMenuOpen, setMobileMenuO
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
-              Mohamed Saad
+              Mahmoud Sherif
             </span>
           </div>
           <div className="hidden lg:flex space-x-6">
@@ -301,8 +311,13 @@ const Education = ({ id }) => (
                 <span className="text-sm bg-blue-900/30 text-blue-300 px-3 py-1 rounded-full">{edu.year}</span>
               </div>
               <h4 className="text-lg text-slate-300 mb-2">{edu.institution}</h4>
-              <p className="text-slate-400 text-sm">{edu.desc}</p>
-            </div>
+<ul className="list-disc list-inside text-slate-400 text-sm space-y-1">
+  {Array.isArray(edu.desc) ? (
+    edu.desc.map((point, i) => <li key={i}>{point}</li>)
+  ) : (
+    <li>{edu.desc}</li>
+  )}
+</ul>            </div>
           </div>
         ))}
       </div>
