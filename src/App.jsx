@@ -55,7 +55,7 @@ const education = [
   {
     degree: "Data Science Program",
     institution: "Digital Egypt Pioneers Initiative By MCIT",
-    year: "2026",
+    year: "Nov 2025 - Present",
     desc: [
       "Intensive training in Data Science foundations, including data analysis, data visualization, SQL databases, and Python-based workflows for extracting insights and building data-driven solutions.",
       "Hands-on experience in Machine Learning and applied Artificial Intelligence, focusing on model development, evaluation, and deployment using tools such as MLflow and Hugging Face.",
@@ -88,18 +88,43 @@ const testimonials = [
 
 // 5. PROJECTS DATA (With Categories)
 const projects = [
-  // {
-  //   id: 1,
-  //   title: "Smart Entrance Gate",
-  //   category: "Embedded AI",
-  //   challenge: "Integration of multiple biometric sensors on limited hardware resources.",
-  //   result: "Achieved 99% uptime with <1s response time for face recognition.",
-  //   tools: ["Python", "Django", "Face Recognition", "OpenCV", "Raspberry Pi"],
-  //   description: "Built a multi-modal biometric access control system combining face recognition, fingerprint scanning, and RFID. Designed a reliable embedded architecture with asynchronous communication.",
-  //   icon: <Eye size={32} />,
-  //   githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
-  //   demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
-  // },
+   {
+    id: 1 ,
+    title: " Dash Board for iris Dataset ",
+    category: "Data Visualization",
+    challenge: "How to visualize and analyze the iris dataset effectively?",
+    result: "TO make the data more accessible and actionable.",
+    tools: ["Python", "Pandas", "Seaborn", "Dash", "Plotly","numpy", "Dash.bootstrap"],
+    description: "dash board for iris dataset to visualize and analyze its features.",
+    icon: <Eye size={32} />
+    // githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
+    // demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
+  },
+   {
+    id: 2,
+    title: " Optical Store ",
+    category: "Desktop App",
+    challenge: "How to create a seamless optical store experience for users?",
+    result: "Make the shopping process fast and user-friendly.",
+    tools: ["C#", ".NET", "SQL", "OOP", "Entity Framework","Crude operations", "LINQ","Database","UI","UX"],
+    description: "Developed a comprehensive optical store management system with a user-friendly interface, allowing users to easily search, select, and purchase eyewear for various needs.",
+    icon: <Eye size={32} />
+    // githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
+    // demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
+  },
+
+  {
+    id: 3,
+    title: " Ticket Booking System",
+    category: "Desktop App",
+    challenge: "How to create a seamless ticket booking experience for users?",
+    result: "Make the booking process fast and user-friendly.",
+    tools: ["C#", ".NET", "SQL", "OOP", "Entity Framework","Crude operations", "LINQ","Database","UI","UX"],
+    description: "Developed a comprehensive ticket booking system with a user-friendly interface, allowing users to easily search, select, and purchase tickets for various events.",
+    icon: <Eye size={32} />
+    // githubLink: "https://github.com/MahamedKhaledSaad11/Smart_Entrance_Gate",
+    // demoLink: "https://drive.google.com/file/d/1tJ5ZBLZ-BkIpypTGbgq1i48K2lNjAeiW/view?usp=sharing"
+  }
   // {
   //   id: 2,
   //   title: "Hospital Management System",
@@ -169,10 +194,10 @@ const skills = {
     // { category: "Machine Learning", items: ["Supervised/Unsupervised", "Clustering", "Scikit-learn"], icon: <Brain size={20} /> },
     // { category: "Deep Learning", items: ["CNN", "ANN", "TensorFlow", "Keras", "PyTorch"], icon: <Layers size={20} /> },
     // { category: "Computer Vision", items: ["Object Detection", "Segmentation", "OpenCV", "YOLO"], icon: <Eye size={20} /> },
-    { category: "Software Engineering", items: ["Object-Oriented Programming", "Agile Development", "System Design"], icon: <Eye size={20} /> },
-    { category: "Data Science", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Jupyter Notebook","pyplot"], icon: <BarChart3 size={20} /> },
+    { category: "Software Engineering", items: ["Object-Oriented Programming", "Agile Development", "System Design","Crude Operations","LINQ"], icon: <Eye size={20} /> },
+    { category: "Data Science", items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "SQL", "Jupyter Notebook","pyplot","Dash","Plotly"], icon: <BarChart3 size={20} /> },
     // { category: "Embedded Systems", items: ["Raspberry Pi", "Arduino", "ESP32"], icon: <Cpu size={20} /> },
-    { category: "Web Tools", items: [".NET", "HTML", "CSS", "Git"], icon: <Network size={20} /> },
+    { category: "Web Tools", items: [".NET", "HTML", "CSS", "Git","Entity Framework"], icon: <Network size={20} /> },
   ]
 };
 
