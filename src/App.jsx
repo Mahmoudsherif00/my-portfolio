@@ -50,7 +50,7 @@ const education = [
     degree: "Bachelor of Computer Science and Artificial Intelligence", 
     institution: "Ahram Canadian University",
     year: "2023 - 2027",
-    desc: "Major in Artificial Intelligence. GPA: 3.59/4.0"
+    desc: "Major in Artificial Intelligence. Grade: Excellent"
   },
   {
     degree: "Data Science Program",
