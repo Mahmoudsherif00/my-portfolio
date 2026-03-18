@@ -20,7 +20,7 @@ const personalInfo = {
   location: "Cairo, Egypt",
   github: "https://github.com/Mahmoudsherif00",
   linkedin: "https://www.linkedin.com/in/mahmoud-sherif0/",
-  cvPath: "/src/assets/Mahmoud_Sherif CV.pdf",
+  cvPath: "/Mahmoud_Sherif_CV.pdf",
   photo: myPhoto
 };
 
